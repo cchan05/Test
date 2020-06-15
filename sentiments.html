@@ -1,0 +1,368 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Defaults::CSS -->
+        <link rel="stylesheet" href="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/fontawesome-5.13.0/css/all.css">
+        <link rel="stylesheet" href="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/mdb-4.14.0/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="C:/Users/cadondoy.5/Desktop/TestGit/Test/custom/css/main.css"> <!-- Custom -->
+        <link rel="icon" type="image/png" href=""> <!-- Favicon -->
+
+        <!-- Extras -->
+        <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/canvasjs-2.3.2/canvasjs.min.js"></script>
+
+        <!-- Defaults::JavaScript -->
+        <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/mdb-4.14.0/js/jquery.min.js"></script>
+        <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/mdb-4.14.0/js/popper.min.js"></script>
+        <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/mdb-4.14.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/vendors/mdb-4.14.0/js/mdb.min.js"></script><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+        
+        <title>Shikhar</title>
+    </head>
+<body>
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>    <!-- Nav -->
+<nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow">
+        <!-- Topbar Navbar -->
+            <form class="d-none d-sm-inline-block form-inline mr-auto ml-3 my-2 my-md-0 mw-100 navbar-search">
+                <div class="input-group">
+                    <!-- <div class="sidebar-brand-icon">
+                        <i class="fas fa-chart-line text-primary fa-3x "></i>
+                    </div> -->
+                    <div class="sidebar-brand-text font-weight-bold text-primary fa-2x">SHIKHAR</div>
+                    <div class="sidebar-brand-text text-primary fa-2x mx-2">Sentiments</div>
+                </div>
+            </form>
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item dropdown no-arrow mx-1">
+                              </li>
+
+              <li class="nav-item dropdown no-arrow">
+                <a class="nav-link waves-effect waves-light" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class=" d-none d-lg-inline text-gray-600 small mr-2">Christian Cadondoy</span>
+                  <div class="ring-container">
+                    <i class="fas fa-user-circle" style="font-size: 30px;"></i>
+                  </div>
+                </a>
+                <!-- Dropdown - User Information -->
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">  
+
+                <!-- <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  &nbsp; &nbsp;Logout
+                </a> -->
+                </div>
+              </li>
+
+            </ul>
+
+            <!-- Change Modal-->
+            <div class="modal fade" id="changeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sample Employee</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </div>
+
+                  <form action="https://mck-phpdev-01.teleperformanceusa.com/qa/barc_shikhar/index.php/analytica" method="post" accept-charset="utf-8">
+                    <div class="modal-body">
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-xl-12 col-lg-12">
+                            <div class="input-group">
+                              <input type="text" id="user_ident" name="user_ident" class="form-control text-center" placeholder="Employee Ident">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row mt-3">
+                          <div class="col-12 text-center">
+                            Preferred Sample Employees
+                          </div>
+                        </div>
+
+                        <div class="row mt-1">
+                          <div class="col-12">
+                          <table class="table table-bordered table-sm">
+                            <thead>
+                              <tr>
+                                <th>Ident</th>
+                                <th>Name</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>2603436</td>
+                                <td>Christy Anne Saga</td>
+                              </tr>
+                              <tr>
+                                <td>3338716</td>
+                                <td>Jovito Dela Cruz</td>
+                              </tr>
+                              <tr>
+                                <td>3338186</td>
+                                <td>Jhonas Caganda</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary waves-effect waves-light" type="button" data-dismiss="modal">Cancel</button>
+                      <button type="submit" name="submit" class="btn btn-primary a3 waves-effect waves-light">Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+      </nav>
+
+<!--container-->
+<div class="container-fluid p-3 px-5">
+
+    <!--buttons-->
+    <div id="navbarproj">
+        <div class="row mt-2">
+            <div class="col-xl-12 col-lg-12">
+
+                <!-- <div class="button-cover float-left" aria-label="Toggle to change view." data-balloon-pos="right">
+                    <div class="button r" id="button-4">                          
+                         <input type="checkbox" class="checkbox" id="list-grid-button-clients" >                            
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                </div>  -->
+
+                <!-- <div class="float-left" aria-label="Toggle to change view." data-balloon-pos="right">
+                    <div class="button r" id="button-4">                          
+                            <input type="checkbox" class="checkbox" id="list-grid-button-clients"/>
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                </div> -->
+
+                <!-- <form class="form-inline my-2 my-lg-0 float-right">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary my-2 my-sm-0" type="button">Search</button>
+                </form>-->
+            </div>
+        </div>
+    </div>
+    <!--end of buttons-->
+
+    <!--projects -->
+    <div class="row mt-3">
+        <div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Att"><div class="contai d-flex justify-content-center px-5 Available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Att/media/cur-logo.png" alt="Att" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="https://app.powerbi.com/groups/91397ebd-3901-470a-900b-998fd8f2d0c6/reports/b5dae978-bd33-4431-9e89-6eebaffe8488/ReportSectionb2d64c7bc22c7f7e53c3?noSignUpCheck=1" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        AT&amp;T
+                                                        </div>
+                                                    </a>  <a href="https://app.powerbi.com/groups/91397ebd-3901-470a-900b-998fd8f2d0c6/reports/6aa354c4-672e-4864-8ea3-903838ed6438/ReportSectiondca2d78fe4b0c34c5441?noSignUpCheck=1" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        ATS
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Bissell"><div class="contai d-flex justify-content-center px-5 Available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Bissell/media/cur-logo.png" alt="Bissell" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="https://app.powerbi.com/groups/91397ebd-3901-470a-900b-998fd8f2d0c6/reports/6089f1ef-f605-414d-ba24-ce48c458f91e/ReportSectionb2d64c7bc22c7f7e53c3?noSignUpCheck=1" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Bissell
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Hilton"><div class="contai d-flex justify-content-center px-5 Available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Hilton/media/cur-logo.png" alt="Hilton" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="https://app.powerbi.com/groups/91397ebd-3901-470a-900b-998fd8f2d0c6/reports/86a61367-0732-4d44-8c10-d4bd0009b1c3/ReportSectiondca2d78fe4b0c34c5441?noSignUpCheck=1" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Hilton
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Sage"><div class="contai d-flex justify-content-center px-5 Available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Sage/media/cur-logo.png" alt="Sage" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="https://app.powerbi.com/groups/91397ebd-3901-470a-900b-998fd8f2d0c6/reports/485a80a9-353a-4500-abf8-cc5f61c6b9dd/ReportSectiond0751bf12d8a2637a153?noSignUpCheck=1" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Sage
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Bpi"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Bpi/media/cur-logo.png" alt="Bpi" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Caesars"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Caesars/media/cur-logo.png" alt="Caesars" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Cebu Pacific"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Cebu Pacific/media/cur-logo.png" alt="Cebu Pacific" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Ceva"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Ceva/media/cur-logo.png" alt="Ceva" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="Frontier"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/Frontier/media/cur-logo.png" alt="Frontier" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="globetelecom"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/globetelecom/media/cur-logo.png" alt="globetelecom" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="hawaiianairlines"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/hawaiianairlines/media/cur-logo.png" alt="hawaiianairlines" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="mastercard"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/mastercard/media/cur-logo.png" alt="mastercard" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="nike"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/nike/media/cur-logo.png" alt="nike" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="telstra"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/telstra/media/cur-logo.png" alt="telstra" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="verizon"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/verizon/media/cur-logo.png" alt="verizon" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="voyages"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/voyages/media/cur-logo.png" alt="voyages" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="wellcare"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/wellcare/media/cur-logo.png" alt="wellcare" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div><div class="col-xl-2 col-lg-2 clients_card mb-grid">
+                        <div class="card shadow grid-clients p-3" data-toggle="tooltip" data-placement="bottom" title="wesfarmers"><div class="contai d-flex justify-content-center px-5 not-available">
+                                    <img src="C:/Users/cadondoy.5/Desktop/TestGit/Test/media/clients/wesfarmers/media/cur-logo.png" alt="wesfarmers" class="img-fluid img-grid">
+                                    <div class="middle1 text">  <a href="#" target="_blank">
+                                                        <div class="text-uppercase text-dark font-weight-bolder">
+                                                        Not Available
+                                                        </div>
+                                                    </a>         </div>
+                                 </div>   </div>
+                    </div>    </div>    
+</div>    
+
+    <!-- Defaults -->
+    <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/custom/js/main.js"></script> <!-- Custom -->
+
+    <!-- Extras::Graphs -->
+    <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/custom/js/demo/chart-area-demo.js"></script>
+    <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/custom/js/demo/chart-bar-group-demo.js"></script>
+    <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/custom/js/demo/chart-pie-demo.js"></script>
+    <script type="text/javascript" src="C:/Users/cadondoy.5/Desktop/TestGit/Test/custom/js/demo/chart-bar-demo.js"></script>
+
+
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary waves-effect waves-light" type="button" data-dismiss="modal">Cancel</button>
+        <a class="btn btn-primary waves-effect waves-light" href="https://mck-phpdev-01.teleperformanceusa.com/qa/barc_shikhar/index.php/auth/logout">Logout</a>
+      </div>
+    </div>
+  </div>
+</div><div class="hiddendiv common"></div></body></html>

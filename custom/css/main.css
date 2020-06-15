@@ -66,7 +66,7 @@ body {  font-family: "SanCoal"; margin: 0;  padding: 0;}
  .flip-card-back {    background-color: #fff;    color: black;    transform: rotateY(180deg);    }
  .middle {    transition: .5s ease;       position: absolute;    top: 50%;    left: 50%;    transform: translate(-50%, -50%);    -ms-transform: translate(-50%, -50%);    text-align: center;    font-size: 1em;}
  #inner{    height:80px;    width:80px;    border-radius: 100px;    -moz-border-radius: 100px;    -webkit-border-radius: 100px;     padding: 25px;     margin-left:35%;    }
-.optionav {background: linear-gradient(to right, #3047b0    0%, #0087FF 100%); padding: 0rem 1rem!important;}
+.optionav {background: #3751c8; padding: 0rem 1rem!important;}
 .pagetitle { font-size: 1vw;}
  @media only screen and (min-width: 1030px) and (max-width: 1366px)     {    
         .flip-card {   background-color: transparent;          width: 250px;            height: 400px;            perspective: 1000px;            }
@@ -322,28 +322,28 @@ div.h4 {  line-height: 1rem;}
 
 /* ribbon */
 /*danger*/
-.ribbon2-danger {  width: 60px;  padding: 10px 0;  position: absolute;  top: -6px;  right: 10px;  text-align: center;  border-top-left-radius: 3px;  background:linear-gradient(#F70505 0%, #8F0808 100%);  color: white; }
+.ribbon2-danger {  width: 60px;  padding: 10px 0;  position: absolute;  top: -6px;  right: 10px;  text-align: center;  border-top-left-radius: 3px;  background: #dc3545;  color: white; }
 .ribbon2-danger:before {  height: 0;  width: 0;  right: -5.5px;  top: 0.1px;  border-bottom: 6px solid #666666;  border-right: 6px solid transparent; }
 .ribbon2-danger:before, .ribbon2-danger:after {   content: "";   position: absolute; }
-.ribbon2-danger:after {   height: 0;   width: 0;   bottom: -29.5px;   left: 0;   border-left: 30px solid #8F0808;   border-right: 30px solid #8F0808;   border-bottom: 30px solid transparent;  }
+.ribbon2-danger:after {   height: 0;   width: 0;   bottom: -29.5px;   left: 0;   border-left: 30px solid #dc3545;   border-right: 30px solid #dc3545;   border-bottom: 30px solid transparent;  }
 
 /* warning */
-.ribbon2-warning {  width: 60px;  padding: 10px 0;  position: absolute;  top: -6px;  right: 10px;  text-align: center;  border-top-left-radius: 3px;  background: linear-gradient(to bottom, #ffff99 0%, #ffcc00 100%);  color: #444;}
+.ribbon2-warning {  width: 60px;  padding: 10px 0;  position: absolute;  top: -6px;  right: 10px;  text-align: center;  border-top-left-radius: 3px;  background: #ffc107;  color: #444;}
 .ribbon2-warning:before {  height: 0;  width: 0;  right: -5.5px;  top: 0.1px;  border-bottom: 6px solid #666666;  border-right: 6px solid transparent; }
 .ribbon2-warning:before, .ribbon2-warning:after {   content: "";   position: absolute; }
-.ribbon2-warning:after {   height: 0;   width: 0;   bottom: -29.5px;   left: 0;   border-left: 30px solid #ffcc00;   border-right: 30px solid #ffcc00;   border-bottom: 30px solid transparent;  }
+.ribbon2-warning:after {   height: 0;   width: 0;   bottom: -29.5px;   left: 0;   border-left: 30px solid #ffc107;   border-right: 30px solid #ffc107;   border-bottom: 30px solid transparent;  }
 
 /*success */
-.ribbon2-success {  width: 60px;  padding: 10px 0;  position: absolute;  top: -6px;  right: 10px;  text-align: center;  border-top-left-radius: 3px;  background: linear-gradient(#28a745 0%, #145222 100%); color: white; }
+.ribbon2-success {  width: 60px;  padding: 10px 0;  position: absolute;  top: -6px;  right: 10px;  text-align: center;  border-top-left-radius: 3px;  background: #28a745; color: white; }
 .ribbon2-success:before {  height: 0;  width: 0;  right: -5.5px;  top: 0.1px;  border-bottom: 6px solid #666666;  border-right: 6px solid transparent; }
 .ribbon2-success:before, .ribbon2-success:after {   content: "";   position: absolute; }
-.ribbon2-success:after {   height: 0;   width: 0;   bottom: -29.5px;   left: 0;   border-left: 30px solid #145222;   border-right: 30px solid #145222;   border-bottom: 30px solid transparent;  }
+.ribbon2-success:after {   height: 0;   width: 0;   bottom: -29.5px;   left: 0;   border-left: 30px solid #28a745;   border-right: 30px solid #28a745;   border-bottom: 30px solid transparent;  }
 
 @media only screen and (min-width: 1030px) and (max-width: 1366px)  {   
   .ribbon2-danger, .ribbon2-warning, .ribbon2-success {width: 50px; right: 8px;}  
-  .ribbon2-danger:after{ bottom: -23.5px;  left: 0;  border-left: 25px solid #8F0808;   border-right: 25px solid #8F0808;   border-bottom: 25px solid transparent;}
-  .ribbon2-warning:after{ bottom: -23.5px;  left: 0;  border-left: 25px solid #ffcc00;   border-right: 25px solid #ffcc00;   border-bottom: 25px solid transparent;}
-  .ribbon2-success:after{ bottom: -23.5px;  left: 0;  border-left: 25px solid #145222;   border-right: 25px solid #145222;   border-bottom: 25px solid transparent;}
+  .ribbon2-danger:after{ bottom: -23.5px;  left: 0;  border-left: 25px solid #dc3545;   border-right: 25px solid #dc3545;   border-bottom: 25px solid transparent;}
+  .ribbon2-warning:after{ bottom: -23.5px;  left: 0;  border-left: 25px solid #ffc107;   border-right: 25px solid #ffc107;   border-bottom: 25px solid transparent;}
+  .ribbon2-success:after{ bottom: -23.5px;  left: 0;  border-left: 25px solid #28a745;   border-right: 25px solid #28a745;   border-bottom: 25px solid transparent;}
 }
 
 /* progress bar */
