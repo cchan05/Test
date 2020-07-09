@@ -1,0 +1,121 @@
+body {
+	font-family: 'Poppins';
+	color: black;
+	text-align: center;
+	font-size: 14px;
+}	
+
+.overlay {
+	background-color: #094162e5;
+	height: 1100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.pie_chart_content .container {
+	background-color: white;
+	border-radius: 40px;
+	padding: 0px;
+}
+
+.main_box h1 {
+	padding: 50px 0px 50px 0px;
+	font-size: 25px;
+	color: black;
+}
+
+.main_box {
+	background-color: white;
+	width: 900px;
+	height: 900px;
+    opacity: 85%;
+}
+
+.count_box {
+	background-color: #ffffff;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	height: 100%;
+	padding: 10px;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #3546b0;
+	opacity: 1;
+}
+
+
+
+.zero-input {
+	background-color: #18b2dd;
+	border: none;
+	color: #ffffff;
+}
+.one-input {
+	background-color: #1395ba;
+	border: none;
+	color: #ffffff;
+}
+.two-input {
+	background-color: #117899;
+	border: none;
+	color: #ffffff;
+}
+.three-input {
+	background-color: #0f5b78;
+	border: none;
+	color: #ffffff;
+}
+.four-input {
+	background-color: #0d3c55;
+	border: none;
+	color: #ffffff;
+}
+.five-input {
+	background-color: #c02e1d;
+	border: none;
+	color: #ffffff;
+}
+.six-input {
+	background-color: #d94e1f;
+	border: none;
+	color: #ffffff;
+}
+.seven-input {
+	background-color: #f16c20;
+	border: none;
+	color: #ffffff;
+}
+.eight-input {
+	background-color: #ef8b2c;
+	border: none;
+	color: #ffffff;
+}
+.nine-input {
+	background-color: #ecaa38;
+	border: none;
+	color: #ffffff;
+}
+
+
+
+.form-control:focus {
+	background-color: transparent;
+	border: none;
+	color: black;
+}
+
+.input-block {
+
+	font-size: 15px;
+}
+
+.input-block input {
+	border: 0;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0.8em;
+	outline: 0;
+	margin-left: 16px;
+}
