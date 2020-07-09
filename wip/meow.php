@@ -12,11 +12,7 @@
     </head>
 <body>
 
-<h1>The onclick Event</h1>
-
-<p>The onclick event is used to trigger a function when an element is clicked on.</p>
-
-<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+<h1>Charts</h1>
 
 <button onclick="piegraph()">Pie</button>
 <button onclick="bargraph()">Bar</button>
